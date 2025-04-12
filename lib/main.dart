@@ -1,6 +1,8 @@
 import 'package:favourite_flutter/Flutter%20Neumorphism%20Button/FlutterNeumorphismButton.dart';
 import 'package:flutter/material.dart';
 
+import 'ClipPath/clipPathWidget.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FlutterNeumorphismButton()
+      home: ClipPathWidget()
     );
   }
 }
